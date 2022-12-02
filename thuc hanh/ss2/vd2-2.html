@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .column__left {
+        flex: 0.5;
+        background-color: red;
+        color: blue;
+      }
+      #color__blue {
+        flex: 0.5;
+        background-color: red;
+        color: blue;
+      }
+      body {
+        flex: 0.5;
+        background-color: blue;
+        color: red;
+      }
+    </style>
+    <style>
+      .column__middle {
+        flex: 0.5;
+        background-color: blue;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div__parrent" id="color__blue" style="display: flex">
+      <div
+        class="column column__left"
+        style="flex: 0.5; background-color: red; color: blue"
+      >
+        Left
+      </div>
+      <div
+        class="column column__middle"
+        style="flex: 0.5; background-color: blue; color: red"
+      >
+        Right
+      </div>
+    </div>
+  </body>
+</html>
