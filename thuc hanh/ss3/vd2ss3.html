@@ -1,51 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vd2-Basic</title>
-</head>
-<style>
-    .div__parent{
-        height: 100px;  
+    <style>
+      .div__parent {
+        margin: 30px;
+        height: 100px;
         display: flex;
-    }
-    .div__left{
+      }
+      .div__left {
         color: white;
         background-color: red;
         flex: 0.3;
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-    .div__right{
+      }
+      .div__right {
         display: flex;
         color: white;
         background-color: #ccc;
-        flex: 0.8;
-    }
-    .div_perent{
+        flex: 0.7;
+      }
+      .div_perent {
         background-color: rgb(250, 81, 81);
         flex: 0.2;
         display: flex;
         align-items: center;
         padding-left: 20px;
-    }
-</style>
-<body>
+      }
+      .div__parent1 {
+        margin: 30px;
+        height: 100px;
+        display: flex;
+      }
+      .div__left1 {
+        color: white;
+        background-color: rgb(1, 82, 204);
+        flex: 0.3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .div__right1 {
+        display: flex;
+        color: white;
+        background-color: #ccc;
+        flex: 0.7;
+      }
+      .div_perent1 {
+        background-color: rgb(31, 173, 216);
+        flex: 0.5;
+        display: flex;
+        align-items: center;
+        padding-left: 100px;
+      }
+      .div__parent2 {
+        margin: 30px;
+        height: 100px;
+        display: flex;
+      }
+      .div__left2 {
+        color: white;
+        background-color: green;
+        flex: 0.3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .div__right2 {
+        display: flex;
+        color: white;
+        background-color: #ccc;
+        flex: 0.7;
+      }
+      .div_perent2 {
+        background-color: rgb(69, 240, 140);
+        flex: 0.7;
+        display: flex;
+        align-items: center;
+        padding-left: 100px;
+      }
+      .div__parent3 {
+        margin: 30px;
+        height: 100px;
+        display: flex;
+      }
+      .div__left3 {
+        color: white;
+        background-color: rgb(201, 172, 42);
+        flex: 0.3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .div__right3 {
+        display: flex;
+        color: white;
+        background-color: #ccc;
+        flex: 0.7;
+      }
+      .div_perent3 {
+        background-color: rgb(237, 240, 83);
+        flex: 0.3;
+        display: flex;
+        align-items: center;
+        padding-left: 100px;
+      }
+      .div__parent4 {
+        margin: 30px;
+        height: 100px;
+        display: flex;
+      }
+      .div__left4 {
+        color: white;
+        background-color: rgb(140, 17, 240);
+        flex: 0.3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .div__right4 {
+        display: flex;
+        color: white;
+        background-color: #ccc;
+        flex: 0.7;
+      }
+      .div_perent4 {
+        background-color: rgb(177, 107, 243);
+        flex: 0.45;
+        display: flex;
+        align-items: center;
+        padding-left: 100px;
+      }
+      .div__parent5 {
+        margin: 30px;
+        height: 100px;
+        display: flex;
+      }
+      .div__left5 {
+        color: white;
+        background-color: rgb(198, 14, 223);
+        flex: 0.3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .div__right5 {
+        display: flex;
+        color: white;
+        background-color: #ccc;
+        flex: 0.7;
+      }
+      .div_perent5 {
+        background-color: rgb(240, 94, 245);
+        flex: 0.8;
+        display: flex;
+        align-items: center;
+        padding-left: 100px;
+      }
+      .div__parent6 {
+        margin: 30px;
+        height: 100px;
+        display: flex;
+      }
+      .div__left6 {
+        color: white;
+        background-color: rgb(16, 117, 233);
+        flex: 0.3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .div__right6 {
+        display: flex;
+        color: white;
+        background-color: #ccc;
+        flex: 0.7;
+      }
+      .div_perent6 {
+        background-color: rgb(56, 128, 236);
+        flex: 0.37;
+        display: flex;
+        align-items: center;
+        padding-left: 100px;
+      }
+    </style>
+  </head>
+
+  <body>
     <div class="div__parent">
-        <div class="div__left">BANDWIDTH</div>
-        <div class="div__right">
-            <div class="div_perent">20%</div>
-        </div>
-    </div>
-    <div class="div__parent">
-    <div class="div__left">BANDWIDTH</div>
-    <div class="div__right">
+      <div class="div__left">BANDWIDTH</div>
+      <div class="div__right">
         <div class="div_perent">20%</div>
+      </div>
     </div>
-</div>
-        
-</body>
+    <div class="div__parent1">
+      <div class="div__left1">STORAGE</div>
+      <div class="div__right1">
+        <div class="div_perent1">50%</div>
+      </div>
+    </div>
+    <div class="div__parent2">
+      <div class="div__left2">USERS</div>
+      <div class="div__right2">
+        <div class="div_perent2">70%</div>
+      </div>
+    </div>
+    <div class="div__parent3">
+      <div class="div__left3">VISITORS</div>
+      <div class="div__right3">
+        <div class="div_perent3">30%</div>
+      </div>
+    </div>
+    <div class="div__parent4">
+      <div class="div__left4">EMAILS</div>
+      <div class="div__right4">
+        <div class="div_perent4">45%</div>
+      </div>
+    </div>
+    <div class="div__parent5">
+      <div class="div__left5">BASIC</div>
+      <div class="div__right5">
+        <div class="div_perent5">80%</div>
+      </div>
+    </div>
+    <div class="div__parent6">
+      <div class="div__left6">OTHERS</div>
+      <div class="div__right6">
+        <div class="div_perent6">37%</div>
+      </div>
+    </div>
+  </body>
 </html>
