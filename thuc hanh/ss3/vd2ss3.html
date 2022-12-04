@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vd2-Basic</title>
+</head>
+<style>
+    .div__parent{
+        height: 100px;  
+        display: flex;
+    }
+    .div__left{
+        color: white;
+        background-color: red;
+        flex: 0.3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .div__right{
+        display: flex;
+        color: white;
+        background-color: #ccc;
+        flex: 0.8;
+    }
+    .div_perent{
+        background-color: rgb(250, 81, 81);
+        flex: 0.2;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+    }
+</style>
+<body>
+    <div class="div__parent">
+        <div class="div__left">BANDWIDTH</div>
+        <div class="div__right">
+            <div class="div_perent">20%</div>
+        </div>
+    </div>
+    <div class="div__parent">
+    <div class="div__left">BANDWIDTH</div>
+    <div class="div__right">
+        <div class="div_perent">20%</div>
+    </div>
+</div>
+        
+</body>
+</html>
